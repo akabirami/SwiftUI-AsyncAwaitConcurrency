@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A04BD03329C20DA900DC353D /* MarsRoverConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BD03229C20DA900DC353D /* MarsRoverConcurrencyApp.swift */; };
+		A04BD03529C20DA900DC353D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BD03429C20DA900DC353D /* ContentView.swift */; };
+		A04BD03729C20DAA00DC353D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04BD03629C20DAA00DC353D /* Assets.xcassets */; };
+		A04BD03B29C20DAA00DC353D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04BD03A29C20DAA00DC353D /* Preview Assets.xcassets */; };
+		A04BD04429C20E1E00DC353D /* LatestPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BD04329C20E1E00DC353D /* LatestPhotosView.swift */; };
+		A04BD04729C211ED00DC353D /* MarsRequestHandlerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BD04629C211ED00DC353D /* MarsRequestHandlerModel.swift */; };
+		A04BD04929C2186300DC353D /* MarsRoverDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BD04829C2186300DC353D /* MarsRoverDataModel.swift */; };
+		A04BD04E29C2220000DC353D /* MarsRoverPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BD04D29C2220000DC353D /* MarsRoverPhotoView.swift */; };
+		A04BD05029C22BF300DC353D /* MarsRoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04BD04F29C22BF300DC353D /* MarsRoverViewModel.swift */; };
+		A0FDBD7E29C23B5C0040B532 /* RoversListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FDBD7D29C23B5C0040B532 /* RoversListView.swift */; };
+		A0FDBD8029C2466F0040B532 /* RoverManifestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FDBD7F29C2466F0040B532 /* RoverManifestView.swift */; };
+		A0FDBD8229C24B590040B532 /* RoverPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FDBD8129C24B590040B532 /* RoverPhotosView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A04BD02F29C20DA900DC353D /* MarsRoverConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsRoverConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04BD03229C20DA900DC353D /* MarsRoverConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverConcurrencyApp.swift; sourceTree = "<group>"; };
+		A04BD03429C20DA900DC353D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A04BD03629C20DAA00DC353D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A04BD03829C20DAA00DC353D /* MarsRoverConcurrency.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MarsRoverConcurrency.entitlements; sourceTree = "<group>"; };
+		A04BD03A29C20DAA00DC353D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A04BD04329C20E1E00DC353D /* LatestPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestPhotosView.swift; sourceTree = "<group>"; };
+		A04BD04629C211ED00DC353D /* MarsRequestHandlerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRequestHandlerModel.swift; sourceTree = "<group>"; };
+		A04BD04829C2186300DC353D /* MarsRoverDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverDataModel.swift; sourceTree = "<group>"; };
+		A04BD04D29C2220000DC353D /* MarsRoverPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverPhotoView.swift; sourceTree = "<group>"; };
+		A04BD04F29C22BF300DC353D /* MarsRoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverViewModel.swift; sourceTree = "<group>"; };
+		A0FDBD7D29C23B5C0040B532 /* RoversListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversListView.swift; sourceTree = "<group>"; };
+		A0FDBD7F29C2466F0040B532 /* RoverManifestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverManifestView.swift; sourceTree = "<group>"; };
+		A0FDBD8129C24B590040B532 /* RoverPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverPhotosView.swift; sourceTree = "<group>"; };
+		A0FDBD8329C24F6E0040B532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A04BD02C29C20DA900DC353D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A04BD02629C20DA900DC353D = {
+			isa = PBXGroup;
+			children = (
+				A04BD03129C20DA900DC353D /* MarsRoverConcurrency */,
+				A04BD03029C20DA900DC353D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A04BD03029C20DA900DC353D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04BD02F29C20DA900DC353D /* MarsRoverConcurrency.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A04BD03129C20DA900DC353D /* MarsRoverConcurrency */ = {
+			isa = PBXGroup;
+			children = (
+				A0FDBD8329C24F6E0040B532 /* Info.plist */,
+				A04BD04A29C221C500DC353D /* Views */,
+				A04BD04529C210C700DC353D /* Model */,
+				A04BD03229C20DA900DC353D /* MarsRoverConcurrencyApp.swift */,
+				A04BD03629C20DAA00DC353D /* Assets.xcassets */,
+				A04BD03829C20DAA00DC353D /* MarsRoverConcurrency.entitlements */,
+				A04BD03929C20DAA00DC353D /* Preview Content */,
+			);
+			path = MarsRoverConcurrency;
+			sourceTree = "<group>";
+		};
+		A04BD03929C20DAA00DC353D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A04BD03A29C20DAA00DC353D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A04BD04529C210C700DC353D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A04BD04629C211ED00DC353D /* MarsRequestHandlerModel.swift */,
+				A04BD04829C2186300DC353D /* MarsRoverDataModel.swift */,
+				A04BD04F29C22BF300DC353D /* MarsRoverViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A04BD04A29C221C500DC353D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A04BD04329C20E1E00DC353D /* LatestPhotosView.swift */,
+				A04BD03429C20DA900DC353D /* ContentView.swift */,
+				A04BD04D29C2220000DC353D /* MarsRoverPhotoView.swift */,
+				A0FDBD7D29C23B5C0040B532 /* RoversListView.swift */,
+				A0FDBD7F29C2466F0040B532 /* RoverManifestView.swift */,
+				A0FDBD8129C24B590040B532 /* RoverPhotosView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A04BD02E29C20DA900DC353D /* MarsRoverConcurrency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04BD03E29C20DAA00DC353D /* Build configuration list for PBXNativeTarget "MarsRoverConcurrency" */;
+			buildPhases = (
+				A04BD02B29C20DA900DC353D /* Sources */,
+				A04BD02C29C20DA900DC353D /* Frameworks */,
+				A04BD02D29C20DA900DC353D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsRoverConcurrency;
+			productName = MarsRoverConcurrency;
+			productReference = A04BD02F29C20DA900DC353D /* MarsRoverConcurrency.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A04BD02729C20DA900DC353D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A04BD02E29C20DA900DC353D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A04BD02A29C20DA900DC353D /* Build configuration list for PBXProject "MarsRoverConcurrency" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A04BD02629C20DA900DC353D;
+			productRefGroup = A04BD03029C20DA900DC353D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04BD02E29C20DA900DC353D /* MarsRoverConcurrency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A04BD02D29C20DA900DC353D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04BD03B29C20DAA00DC353D /* Preview Assets.xcassets in Resources */,
+				A04BD03729C20DAA00DC353D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A04BD02B29C20DA900DC353D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04BD04429C20E1E00DC353D /* LatestPhotosView.swift in Sources */,
+				A04BD04929C2186300DC353D /* MarsRoverDataModel.swift in Sources */,
+				A0FDBD8229C24B590040B532 /* RoverPhotosView.swift in Sources */,
+				A04BD03529C20DA900DC353D /* ContentView.swift in Sources */,
+				A0FDBD8029C2466F0040B532 /* RoverManifestView.swift in Sources */,
+				A04BD04E29C2220000DC353D /* MarsRoverPhotoView.swift in Sources */,
+				A04BD03329C20DA900DC353D /* MarsRoverConcurrencyApp.swift in Sources */,
+				A04BD05029C22BF300DC353D /* MarsRoverViewModel.swift in Sources */,
+				A04BD04729C211ED00DC353D /* MarsRequestHandlerModel.swift in Sources */,
+				A0FDBD7E29C23B5C0040B532 /* RoversListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A04BD03C29C20DAA00DC353D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A04BD03D29C20DAA00DC353D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A04BD03F29C20DAA00DC353D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MarsRoverConcurrency/MarsRoverConcurrency.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarsRoverConcurrency/Preview Content\"";
+				DEVELOPMENT_TEAM = XTYT46W6B7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarsRoverConcurrency/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarsRoverConcurrency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A04BD04029C20DAA00DC353D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MarsRoverConcurrency/MarsRoverConcurrency.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MarsRoverConcurrency/Preview Content\"";
+				DEVELOPMENT_TEAM = XTYT46W6B7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarsRoverConcurrency/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MarsRoverConcurrency;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A04BD02A29C20DA900DC353D /* Build configuration list for PBXProject "MarsRoverConcurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04BD03C29C20DAA00DC353D /* Debug */,
+				A04BD03D29C20DAA00DC353D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04BD03E29C20DAA00DC353D /* Build configuration list for PBXNativeTarget "MarsRoverConcurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04BD03F29C20DAA00DC353D /* Debug */,
+				A04BD04029C20DAA00DC353D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A04BD02729C20DA900DC353D /* Project object */;
+}
